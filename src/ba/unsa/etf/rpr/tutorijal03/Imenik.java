@@ -8,5 +8,12 @@ public class Imenik {
 
 
 
+
     public void dodaj(String ime, TelefonskiBroj broj)
+
+    String dajBroj(String ime)
+        Imenik::ime=ime;
+    return Imenik::ime;
+
+    String dajIme(TelefonskiBroj broj)
 }
